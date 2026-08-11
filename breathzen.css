@@ -1,0 +1,204 @@
+:root {
+  color-scheme: dark;
+  --night: #090817;
+  --night-soft: #111027;
+  --panel: rgba(30, 27, 59, 0.72);
+  --panel-line: rgba(191, 177, 255, 0.15);
+  --text: #f6f3ff;
+  --subtext: #b9b3cf;
+  --violet: #9f8cff;
+  --cyan: #65e6e0;
+  --gold: #f2c976;
+  --rose: #e88ba3;
+}
+
+* { box-sizing: border-box; }
+
+html { min-height: 100%; }
+
+body {
+  min-height: 100%;
+  margin: 0;
+  color: var(--text);
+  background:
+    radial-gradient(circle at 50% -5%, rgba(106, 78, 191, 0.32), transparent 31rem),
+    radial-gradient(circle at 10% 35%, rgba(44, 187, 183, 0.10), transparent 25rem),
+    linear-gradient(180deg, #090817 0%, #0c0a1b 50%, #070711 100%);
+  font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "PingFang SC", "Helvetica Neue", sans-serif;
+  line-height: 1.65;
+  -webkit-font-smoothing: antialiased;
+}
+
+a { color: var(--cyan); text-underline-offset: 0.2em; }
+a:hover { color: #a2fffb; }
+
+.shell {
+  width: min(100% - 36px, 720px);
+  margin: 0 auto;
+  padding: 56px 0 48px;
+}
+
+header { text-align: center; }
+
+.mark {
+  display: block;
+  width: 92px;
+  height: 92px;
+  margin: 0 auto 18px;
+  filter: drop-shadow(0 0 26px rgba(101, 230, 224, 0.18));
+}
+
+h1 {
+  margin: 0;
+  font-size: clamp(2.25rem, 8vw, 3.4rem);
+  line-height: 1.05;
+  letter-spacing: -0.04em;
+}
+
+.tagline {
+  margin: 12px 0 0;
+  color: var(--subtext);
+  font-size: 1.04rem;
+}
+
+.orbit-rule {
+  width: 118px;
+  height: 1px;
+  margin: 26px auto;
+  border: 0;
+  background: linear-gradient(90deg, transparent, var(--cyan), var(--violet), transparent);
+}
+
+.languages {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  margin: 0 0 36px;
+}
+
+.languages button {
+  appearance: none;
+  border: 1px solid rgba(255,255,255,0.12);
+  border-radius: 999px;
+  padding: 8px 15px;
+  color: var(--subtext);
+  background: rgba(255,255,255,0.035);
+  font: inherit;
+  font-size: 0.86rem;
+  cursor: pointer;
+}
+
+.languages button[aria-pressed="true"] {
+  color: var(--text);
+  border-color: rgba(101, 230, 224, 0.42);
+  background: rgba(101, 230, 224, 0.10);
+  box-shadow: 0 0 20px rgba(101, 230, 224, 0.08);
+}
+
+article { display: none; }
+article.active { display: block; }
+
+.lead {
+  margin: 0 0 32px;
+  color: #ded9ef;
+  font-size: 1.08rem;
+  text-align: center;
+}
+
+h2 {
+  margin: 40px 0 13px;
+  font-size: 1.28rem;
+  letter-spacing: -0.015em;
+}
+
+h3 {
+  margin: 0 0 8px;
+  font-size: 1rem;
+  color: var(--text);
+}
+
+p { margin: 0; }
+
+.card {
+  position: relative;
+  margin: 12px 0;
+  padding: 19px 20px;
+  overflow: hidden;
+  border: 1px solid var(--panel-line);
+  border-radius: 20px;
+  color: var(--subtext);
+  background: linear-gradient(145deg, rgba(41, 35, 79, 0.72), rgba(20, 19, 43, 0.74));
+  box-shadow: 0 18px 55px rgba(0,0,0,0.17);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+}
+
+.card::before {
+  content: "";
+  position: absolute;
+  inset: 0 auto 0 0;
+  width: 2px;
+  background: linear-gradient(180deg, var(--cyan), var(--violet), transparent 80%);
+  opacity: 0.72;
+}
+
+.card strong { color: var(--text); }
+.card p + p { margin-top: 10px; }
+.mail { font-size: 1.08rem; font-weight: 650; }
+.path { color: #d8d1ff; }
+
+.fact-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 12px;
+}
+
+.fact {
+  min-height: 112px;
+  padding: 18px;
+  border: 1px solid rgba(159, 140, 255, 0.15);
+  border-radius: 18px;
+  background: rgba(26, 23, 52, 0.64);
+}
+
+.fact .eyebrow {
+  display: block;
+  margin-bottom: 5px;
+  color: var(--gold);
+  font-size: 0.72rem;
+  font-weight: 750;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+}
+
+.fact p { color: var(--subtext); font-size: 0.92rem; }
+
+.notice {
+  border-color: rgba(242, 201, 118, 0.2);
+  background: linear-gradient(145deg, rgba(75, 58, 32, 0.36), rgba(25, 22, 39, 0.72));
+}
+
+footer {
+  margin-top: 46px;
+  color: #7f7994;
+  font-size: 0.78rem;
+  text-align: center;
+}
+
+footer a { color: #aaa1c9; }
+
+@media (max-width: 560px) {
+  .shell { width: min(100% - 24px, 720px); padding-top: 36px; }
+  .fact-grid { grid-template-columns: 1fr; }
+  .card { padding: 17px; border-radius: 17px; }
+  .lead { font-size: 1rem; }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .mark .pulse { animation: breathe 6s ease-in-out infinite; transform-origin: 50% 50%; }
+  @keyframes breathe {
+    0%, 100% { transform: scale(0.88); opacity: 0.7; }
+    50% { transform: scale(1.06); opacity: 1; }
+  }
+}
+
