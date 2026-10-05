@@ -1,0 +1,902 @@
+{
+  "en": {
+    "name": "English",
+    "support": "Support",
+    "privacy": "Privacy Policy",
+    "language": "Language",
+    "tagline": "A quiet guide back to your breath",
+    "privacyTagline": "Clear boundaries, quiet by design",
+    "lead": "BreathZen guides breathing practice without spoken instructions on iPhone, iPad, and Mac. If something is unclear or does not work as expected, write to us — every message is read.",
+    "contact": "Contact",
+    "primary": "Primary support",
+    "backup": "International / backup",
+    "technical": "For a technical issue, include your device model, iOS, iPadOS, or macOS version, app version, and steps to reproduce the problem. A screenshot or screen recording can help.",
+    "faq": "Common questions",
+    "questions": [
+      [
+        "How does the breathing guide work?",
+        "Distinct, nonverbal inhale and exhale sounds follow each phase duration. Holds and rests remain silent. The sound adapts to built-in and custom patterns instead of looping a short recording."
+      ],
+      [
+        "Can practice continue with the screen locked?",
+        "On iPhone and iPad, enable breathing sound before starting. Lock Screen controls can pause or resume the session. With sound disabled, the system may suspend the app. On Mac, keep the app running; practice may be interrupted when the computer sleeps."
+      ],
+      [
+        "What is included in Custom Breathing?",
+        "Adjust inhale, hold, exhale, and rest in half-second steps. Editing, animation previews, and audio previews are free. One non-consumable purchase unlocks saving unlimited custom patterns. It is not a subscription."
+      ],
+      [
+        "How do I restore my purchase?",
+        "Open Settings and choose Restore Purchase at the bottom, or use Restore Purchase on the purchase screen. Use the same Apple Account as the original purchase. If the feature is already unlocked, Settings shows the unlocked status instead."
+      ],
+      [
+        "I saved custom patterns before version 3.0. Do I need to pay?",
+        "No. If a custom pattern from an earlier version is already stored on that device, BreathZen permanently unlocks the feature there."
+      ],
+      [
+        "What does Apple Health access do?",
+        "On supported devices, it is optional and write-only. With your permission, completed practice is saved as a mindful session. BreathZen does not read Health data. This integration is unavailable on Mac."
+      ]
+    ],
+    "requirements": "Platforms and system requirements",
+    "requirementsText": "BreathZen supports iPhone, iPad, and Mac. iPhone and iPad require iOS or iPadOS 16.6 or later; check the Mac App Store listing for Mac compatibility. Background audio and media controls depend on the system. Haptics vary by device.",
+    "safety": "Practice safely",
+    "safetyText": "Practice within a comfortable range. Stop and return to natural breathing if you feel dizzy, strained, short of breath, or unwell. BreathZen supports general wellness and mindfulness; it does not provide medical diagnosis or treatment.",
+    "privacyBrief": "No account, ads, analytics, or tracking. Everyday practice works offline.",
+    "readPolicy": "Read the full privacy policy",
+    "back": "Return to BreathZen Support",
+    "effective": "Effective August 10, 2026",
+    "updated": "Translations and platform clarifications updated October 5, 2026",
+    "facts": [
+      [
+        "Account",
+        "No sign-in or developer account."
+      ],
+      [
+        "Tracking",
+        "No ads, analytics SDK, or cross-app tracking."
+      ],
+      [
+        "Microphone",
+        "Never requested or accessed."
+      ],
+      [
+        "Practice",
+        "Everyday use works offline."
+      ]
+    ],
+    "policy": [
+      [
+        "What the developer collects",
+        "The developer does not collect, transmit, sell, rent, or share personal data through BreathZen. The app contains no advertising SDK, analytics SDK, cross-app tracking, or third-party account system."
+      ],
+      [
+        "Data stored on your device",
+        "Breathing patterns, settings, purchase-entitlement cache, and practice history are stored locally. BreathZen does not upload them to a developer-operated server. Removal of local app data depends on your operating system; uninstalling an app on Mac may leave local data behind. Apple Health entries are managed separately in the Health app."
+      ],
+      [
+        "Apple Health",
+        "On supported devices, integration is optional. With your permission, BreathZen writes completed practices as mindful sessions. It does not read Health data, and the developer does not receive Health data. This integration is unavailable on Mac."
+      ],
+      [
+        "Purchases",
+        "Apple processes purchases and restoration through StoreKit under Apple's Privacy Policy. BreathZen receives only the transaction information needed to determine whether the non-consumable feature is unlocked. Opening purchase features, buying, or restoring may contact Apple's App Store services. Everyday breathing practice does not require a network connection."
+      ],
+      [
+        "Audio and microphone",
+        "Breathing guidance is generated on your device from bundled audio material. BreathZen does not request microphone permission, record your voice, or listen to your breathing."
+      ],
+      [
+        "System services and children",
+        "BreathZen may use standard Apple services such as StoreKit, Apple Health where available, audio playback, haptics, and local storage. Their operation is governed by device settings and Apple's terms. BreathZen is not directed at children for the purpose of collecting personal information, and the developer does not knowingly collect personal information from children."
+      ],
+      [
+        "Changes",
+        "If this policy changes, the updated text and effective date will be published here. Material changes will reflect the app's actual behavior."
+      ]
+    ],
+    "applePolicy": "Apple's Privacy Policy",
+    "privacyContact": "For support or privacy questions, contact:",
+    "privacyHeading": "Privacy"
+  },
+  "zh-Hans": {
+    "name": "简体中文",
+    "support": "支持",
+    "privacy": "隐私政策",
+    "language": "语言",
+    "tagline": "安静地回到自己的呼吸",
+    "privacyTagline": "边界清晰，安心练习",
+    "lead": "波纹呼吸在 iPhone、iPad 和 Mac 上提供没有语音口令的呼吸引导。如有不清楚或不符合预期的地方，欢迎来信，每一封都会认真阅读。",
+    "contact": "联系我们",
+    "primary": "国内支持",
+    "backup": "国际及备用邮箱",
+    "technical": "反馈技术问题时，请附上设备型号、iOS、iPadOS 或 macOS 版本、App 版本和复现步骤。截图或屏幕录制也会有帮助。",
+    "faq": "常见问题",
+    "questions": [
+      [
+        "呼吸声音怎样引导？",
+        "吸气与呼气使用两种可辨识的非语言声音，按每个阶段的时长变化。屏息与停顿保持安静。声音会适配内置和自定义节奏，不是循环播放一小段录音。"
+      ],
+      [
+        "锁屏后可以继续练习吗？",
+        "在 iPhone 和 iPad 上，开始前请开启呼吸声音，锁屏控件可暂停或继续。关闭声音时，系统可能挂起 App。在 Mac 上请保持 App 运行；电脑进入睡眠后，练习可能中断。"
+      ],
+      [
+        "自定义呼吸法包含什么？",
+        "吸、屏、呼、停四个阶段可按 0.5 秒调整。编辑、动画预览和声音试听免费。一次性非消耗型购买可解锁无限保存自定义呼吸法，不是订阅。"
+      ],
+      [
+        "怎样恢复购买？",
+        "打开设置，在底部选择“恢复购买”，或在购买页面选择“恢复购买”。请使用最初购买时的同一 Apple 账户。如果功能已解锁，设置中会显示已解锁状态。"
+      ],
+      [
+        "3.0 以前保存过自定义呼吸法，还要购买吗？",
+        "不需要。如果这台设备上已经保存了旧版本的自定义呼吸法，波纹呼吸会在本机永久解锁该功能。"
+      ],
+      [
+        "Apple 健康权限有什么作用？",
+        "在支持的设备上，完全可选，只写入、不读取。经你授权，完成的练习会作为正念时间保存。波纹呼吸不读取健康数据。Mac 不提供此功能。"
+      ]
+    ],
+    "requirements": "平台与系统要求",
+    "requirementsText": "支持 iPhone、iPad 和 Mac。iPhone 和 iPad 需要 iOS 或 iPadOS 16.6 及以上版本；Mac 兼容性请查看 Mac App Store 商品页。后台声音和媒体控制受系统管理，触感反馈因设备而异。",
+    "safety": "安全练习",
+    "safetyText": "请在舒适范围内练习。如感到头晕、憋闷、气短或其他不适，请停止并恢复自然呼吸。波纹呼吸用于一般健康与正念练习，不提供医疗诊断或治疗。",
+    "privacyBrief": "无需账号，没有广告、统计或追踪。日常练习可离线完成。",
+    "readPolicy": "阅读完整隐私政策",
+    "back": "返回波纹呼吸支持页面",
+    "effective": "生效日期：2026 年 8 月 10 日",
+    "updated": "翻译与平台说明更新：2026 年 10 月 5 日",
+    "facts": [
+      [
+        "账号",
+        "无需登录，不建立开发者账号。"
+      ],
+      [
+        "追踪",
+        "没有广告、统计 SDK 或跨 App 追踪。"
+      ],
+      [
+        "麦克风",
+        "不申请权限，也不访问。"
+      ],
+      [
+        "练习",
+        "日常使用可以离线完成。"
+      ]
+    ],
+    "policy": [
+      [
+        "开发者收集什么",
+        "开发者不会通过波纹呼吸收集、传输、出售、出租或共享个人数据。App 不包含广告 SDK、分析统计 SDK、跨 App 追踪或第三方账号系统。"
+      ],
+      [
+        "设备本地的数据",
+        "呼吸法、设置、购买权益缓存和练习记录保存在设备本地，不会上传到开发者运营的服务器。本地数据的移除方式取决于操作系统；在 Mac 上卸载 App 可能仍会保留本地数据。Apple 健康记录需在“健康”App 中单独管理。"
+      ],
+      [
+        "Apple 健康",
+        "在支持的设备上，此功能完全可选。经你授权后，波纹呼吸会将完成的练习作为正念时间写入，不读取健康数据，开发者也不会收到健康数据。Mac 不提供此功能。"
+      ],
+      [
+        "购买",
+        "购买和恢复购买由 Apple 通过 StoreKit 处理，并适用 Apple 的隐私政策。波纹呼吸只获得判断非消耗型功能是否解锁所必需的交易信息。打开购买功能、购买或恢复时可能连接 Apple 的 App Store 服务；日常呼吸练习不需要网络连接。"
+      ],
+      [
+        "声音与麦克风",
+        "呼吸引导由 App 内置声音素材在设备本地生成。波纹呼吸不会请求麦克风权限，不录制你的声音，也不会监听你的呼吸。"
+      ],
+      [
+        "系统服务与儿童隐私",
+        "波纹呼吸可能使用 StoreKit、受支持设备上的 Apple 健康、音频播放、触感和本地存储等 Apple 标准服务，其运行受设备设置和 Apple 条款约束。App 不以收集个人信息为目的面向儿童，开发者不会故意收集儿童的个人信息。"
+      ],
+      [
+        "政策变更",
+        "如本政策发生变化，更新后的内容与生效日期会发布在本页。实质变化会与 App 的实际行为保持一致。"
+      ]
+    ],
+    "applePolicy": "Apple 隐私政策",
+    "privacyContact": "如需支持或咨询隐私问题，请联系：",
+    "privacyHeading": "隐私"
+  },
+  "zh-Hant": {
+    "name": "繁體中文",
+    "support": "支援",
+    "privacy": "隱私權政策",
+    "language": "語言",
+    "tagline": "安靜地回到自己的呼吸",
+    "privacyTagline": "界線清楚，安心練習",
+    "lead": "波紋呼吸在 iPhone、iPad 和 Mac 上提供沒有語音口令的呼吸引導。如有不清楚或不符合預期之處，歡迎來信，每一封都會認真閱讀。",
+    "contact": "聯絡我們",
+    "primary": "主要支援信箱",
+    "backup": "國際及備用信箱",
+    "technical": "回報技術問題時，請提供裝置型號、iOS、iPadOS 或 macOS 版本、App 版本與重現步驟。螢幕截圖或錄製也會有幫助。",
+    "faq": "常見問題",
+    "questions": [
+      [
+        "呼吸聲音如何引導？",
+        "吸氣與呼氣使用兩種可辨識的非語言聲音，隨每個階段的長度變化。屏息與停頓保持安靜。聲音會配合內建和自訂節奏，不是循環播放一小段錄音。"
+      ],
+      [
+        "鎖定螢幕後可以繼續練習嗎？",
+        "在 iPhone 和 iPad 上，開始前請開啟呼吸聲音，鎖定畫面控制項可暫停或繼續。關閉聲音時，系統可能暫停 App。在 Mac 上請保持 App 執行；電腦進入睡眠後，練習可能中斷。"
+      ],
+      [
+        "自訂呼吸法包含什麼？",
+        "吸氣、屏息、呼氣、停頓四個階段可按 0.5 秒調整。編輯、動畫預覽和聲音試聽免費。一次性非消耗型購買可解鎖無限儲存自訂呼吸法，並非訂閱。"
+      ],
+      [
+        "如何恢復購買？",
+        "開啟設定，在底部選擇「恢復購買」，或在購買頁面選擇此項目。請使用最初購買時的同一 Apple 帳號。如果功能已解鎖，設定中會顯示已解鎖狀態。"
+      ],
+      [
+        "3.0 以前儲存過自訂呼吸法，還要購買嗎？",
+        "不需要。如果這部裝置上已有舊版儲存的自訂呼吸法，波紋呼吸會在本機永久解鎖此功能。"
+      ],
+      [
+        "Apple 健康權限有什麼作用？",
+        "在支援的裝置上，此功能完全可選，只寫入、不讀取。經你授權，完成的練習會儲存為正念時間。波紋呼吸不讀取健康資料。Mac 不提供此功能。"
+      ]
+    ],
+    "requirements": "平台與系統需求",
+    "requirementsText": "支援 iPhone、iPad 和 Mac。iPhone 和 iPad 需要 iOS 或 iPadOS 16.6 或以上版本；Mac 相容性請查看 Mac App Store 商品頁。背景聲音與媒體控制由系統管理，觸覺回饋因裝置而異。",
+    "safety": "安全練習",
+    "safetyText": "請在舒適範圍內練習。如感到頭暈、呼吸吃力、氣短或其他不適，請停止並恢復自然呼吸。波紋呼吸用於一般健康與正念練習，不提供醫療診斷或治療。",
+    "privacyBrief": "無需帳號，沒有廣告、分析或追蹤。日常練習可離線完成。",
+    "readPolicy": "閱讀完整隱私權政策",
+    "back": "返回波紋呼吸支援頁面",
+    "effective": "生效日期：2026 年 8 月 10 日",
+    "updated": "翻譯與平台說明更新：2026 年 10 月 5 日",
+    "facts": [
+      [
+        "帳號",
+        "無需登入，不建立開發者帳號。"
+      ],
+      [
+        "追蹤",
+        "沒有廣告、分析 SDK 或跨 App 追蹤。"
+      ],
+      [
+        "麥克風",
+        "不要求權限，也不存取。"
+      ],
+      [
+        "練習",
+        "日常使用可以離線完成。"
+      ]
+    ],
+    "policy": [
+      [
+        "開發者收集什麼",
+        "開發者不會透過波紋呼吸收集、傳輸、出售、出租或分享個人資料。App 不包含廣告 SDK、分析 SDK、跨 App 追蹤或第三方帳號系統。"
+      ],
+      [
+        "裝置本機的資料",
+        "呼吸法、設定、購買權益快取與練習紀錄儲存在裝置本機，不會上傳到開發者營運的伺服器。本機資料的移除方式取決於作業系統；在 Mac 上解除安裝 App 可能仍會保留本機資料。Apple 健康紀錄需在「健康」App 中另行管理。"
+      ],
+      [
+        "Apple 健康",
+        "在支援的裝置上，此功能完全可選。經你授權後，波紋呼吸會將完成的練習寫入為正念時間，不讀取健康資料，開發者也不會收到健康資料。Mac 不提供此功能。"
+      ],
+      [
+        "購買",
+        "購買與恢復購買由 Apple 透過 StoreKit 處理，並適用 Apple 的隱私權政策。波紋呼吸只取得判斷非消耗型功能是否解鎖所需的交易資訊。開啟購買功能、購買或回復時可能連線至 Apple 的 App Store 服務；日常呼吸練習不需要網路連線。"
+      ],
+      [
+        "聲音與麥克風",
+        "呼吸引導由 App 內建聲音素材在裝置本機產生。波紋呼吸不會要求麥克風權限、不錄製你的聲音，也不會聆聽你的呼吸。"
+      ],
+      [
+        "系統服務與兒童隱私",
+        "波紋呼吸可能使用 StoreKit、受支援裝置上的 Apple 健康、音訊播放、觸覺回饋及本機儲存等 Apple 標準服務，其運作受裝置設定與 Apple 條款規範。App 不以收集個人資訊為目的面向兒童，開發者不會刻意收集兒童的個人資訊。"
+      ],
+      [
+        "政策變更",
+        "如本政策有所變更，更新後的內容與生效日期會公布於本頁。實質變更會與 App 的實際行為一致。"
+      ]
+    ],
+    "applePolicy": "Apple 隱私權政策",
+    "privacyContact": "如需支援或有隱私權問題，請聯絡：",
+    "privacyHeading": "隱私權"
+  },
+  "ja": {
+    "name": "日本語",
+    "support": "サポート",
+    "privacy": "プライバシーポリシー",
+    "language": "言語",
+    "tagline": "静かに、自分の呼吸へ",
+    "privacyTagline": "プライバシーの境界を明確に",
+    "lead": "BreathZen は iPhone、iPad、Mac で、言葉による指示を使わずに呼吸の練習をガイドします。ご不明な点や不具合がありましたらメールでお知らせください。すべてのメッセージを確認しています。",
+    "contact": "お問い合わせ",
+    "primary": "主な連絡先",
+    "backup": "国際対応・予備の連絡先",
+    "technical": "不具合については、機種、iOS・iPadOS・macOS のバージョン、アプリのバージョン、再現手順をお知らせください。スクリーンショットや画面収録も参考になります。",
+    "faq": "よくある質問",
+    "questions": [
+      [
+        "呼吸ガイドはどのように動作しますか？",
+        "吸う息と吐く息を区別できる、言葉を使わない音が各段階の長さに合わせて変化します。息止めと休止の間は無音です。短い録音の繰り返しではなく、内蔵・カスタムの呼吸パターンに合わせて音を調整します。"
+      ],
+      [
+        "画面をロックしても練習できますか？",
+        "iPhone と iPad では、開始前に呼吸音を有効にしてください。ロック画面のコントロールで一時停止・再開できます。音を無効にすると、システムがアプリを停止する場合があります。Mac ではアプリを起動したままにしてください。コンピュータがスリープすると練習が中断される場合があります。"
+      ],
+      [
+        "カスタム呼吸では何ができますか？",
+        "吸う・息止め・吐く・休止の各段階を 0.5 秒単位で調整できます。編集、アニメーションのプレビュー、音の試聴は無料です。非消耗型の一度限りの購入で、カスタムパターンを無制限に保存できます。サブスクリプションではありません。"
+      ],
+      [
+        "購入を復元するには？",
+        "設定の一番下、または購入画面で「購入を復元する」を選んでください。購入時と同じ Apple Account を使用します。機能がすでに解除されている場合は、設定に解除済みと表示されます。"
+      ],
+      [
+        "バージョン 3.0 より前にパターンを保存しました。購入が必要ですか？",
+        "必要ありません。そのデバイスに旧バージョンで保存したカスタムパターンがある場合、そのデバイスでは機能が永続的に解除されます。"
+      ],
+      [
+        "Apple ヘルスケアへのアクセスは何のためですか？",
+        "対応デバイスで任意に利用でき、書き込みのみを行います。許可すると、完了した練習をマインドフルネスのセッションとして保存します。ヘルスケアデータは読み取りません。Mac では利用できません。"
+      ]
+    ],
+    "requirements": "対応プラットフォームとシステム要件",
+    "requirementsText": "iPhone、iPad、Mac に対応しています。iPhone と iPad には iOS または iPadOS 16.6 以降が必要です。Mac の対応条件は Mac App Store の掲載情報をご確認ください。バックグラウンド音声とメディア操作はシステムに依存し、触覚フィードバックは機種により異なります。",
+    "safety": "安全に練習するために",
+    "safetyText": "無理のない範囲で練習してください。めまい、息苦しさ、息切れ、その他の不調を感じたら中止し、自然な呼吸に戻してください。BreathZen は一般的な健康維持とマインドフルネスのためのアプリであり、医療上の診断や治療を提供しません。",
+    "privacyBrief": "アカウント、広告、分析、トラッキングはありません。日常の練習はオフラインで行えます。",
+    "readPolicy": "プライバシーポリシーを読む",
+    "back": "BreathZen サポートに戻る",
+    "effective": "施行日：2026 年 8 月 10 日",
+    "updated": "翻訳とプラットフォームの説明の更新日：2026 年 10 月 5 日",
+    "facts": [
+      [
+        "アカウント",
+        "ログインや開発者のアカウントは不要です。"
+      ],
+      [
+        "トラッキング",
+        "広告、分析 SDK、アプリ間の追跡はありません。"
+      ],
+      [
+        "マイク",
+        "許可の要求やアクセスは行いません。"
+      ],
+      [
+        "練習",
+        "日常の利用はオフラインで行えます。"
+      ]
+    ],
+    "policy": [
+      [
+        "開発者が収集する情報",
+        "開発者は BreathZen を通じて個人データを収集、送信、販売、貸与、共有しません。広告 SDK、分析 SDK、アプリ間トラッキング、第三者のアカウントシステムはありません。"
+      ],
+      [
+        "デバイスに保存されるデータ",
+        "呼吸パターン、設定、購入権利のキャッシュ、練習履歴はデバイス内に保存され、開発者が運営するサーバーには送信されません。ローカルデータの削除方法は OS に依存します。Mac ではアプリをアンインストールしてもデータが残る場合があります。Apple ヘルスケアの記録はヘルスケアアプリで別途管理します。"
+      ],
+      [
+        "Apple ヘルスケア",
+        "対応デバイスで任意に利用できます。許可すると、完了した練習をマインドフルネスのセッションとして書き込みます。データの読み取りは行わず、開発者もヘルスケアデータを受け取りません。Mac では利用できません。"
+      ],
+      [
+        "購入",
+        "購入と復元は Apple が StoreKit を通じて処理し、Apple のプライバシーポリシーが適用されます。BreathZen は非消耗型機能の解除を確認するために必要な取引情報のみを受け取ります。購入機能を開く場合、購入する場合、復元する場合には App Store のサービスに接続することがあります。日常の呼吸練習にネットワーク接続は不要です。"
+      ],
+      [
+        "音声とマイク",
+        "呼吸ガイドはアプリに同梱された音声素材からデバイス上で生成されます。マイクの許可を要求せず、声を録音したり呼吸を聞いたりしません。"
+      ],
+      [
+        "システムサービスと子どものプライバシー",
+        "StoreKit、対応デバイスでの Apple ヘルスケア、音声再生、触覚フィードバック、ローカルストレージなど、Apple の標準サービスを使用する場合があります。これらはデバイスの設定と Apple の規約に従います。BreathZen は個人情報の収集を目的として子どもを対象にしておらず、開発者は子どもから意図的に個人情報を収集しません。"
+      ],
+      [
+        "ポリシーの変更",
+        "変更がある場合は、更新内容と施行日をこのページに掲載します。重要な変更はアプリの実際の動作の変更を反映します。"
+      ]
+    ],
+    "applePolicy": "Apple のプライバシーポリシー",
+    "privacyContact": "サポートやプライバシーに関するお問い合わせ：",
+    "privacyHeading": "プライバシー"
+  },
+  "ko": {
+    "name": "한국어",
+    "support": "지원",
+    "privacy": "개인정보 처리방침",
+    "language": "언어",
+    "tagline": "조용히 내 호흡으로 돌아오는 시간",
+    "privacyTagline": "명확한 원칙, 편안한 연습",
+    "lead": "BreathZen은 iPhone, iPad, Mac에서 말로 된 지시 없이 호흡 연습을 안내합니다. 궁금한 점이나 문제가 있으면 이메일로 알려 주세요. 모든 메시지를 확인합니다.",
+    "contact": "문의",
+    "primary": "주 지원 이메일",
+    "backup": "국제 및 예비 이메일",
+    "technical": "기술 문제를 문의할 때는 기기 모델, iOS·iPadOS·macOS 버전, 앱 버전, 문제 재현 방법을 알려 주세요. 스크린샷이나 화면 녹화도 도움이 됩니다.",
+    "faq": "자주 묻는 질문",
+    "questions": [
+      [
+        "호흡 안내는 어떻게 작동하나요?",
+        "구별되는 비언어적 들숨과 날숨 소리가 각 단계의 길이에 맞춰 변합니다. 숨을 참거나 쉬는 단계는 무음입니다. 짧은 녹음을 반복하는 대신 기본 및 사용자 지정 패턴에 맞게 소리를 조절합니다."
+      ],
+      [
+        "화면을 잠가도 연습이 계속되나요?",
+        "iPhone과 iPad에서는 시작 전에 호흡 소리를 켜 주세요. 잠금 화면의 제어 기능으로 일시 정지하거나 재개할 수 있습니다. 소리가 꺼져 있으면 시스템이 앱을 중단할 수 있습니다. Mac에서는 앱을 실행한 상태로 유지해 주세요. 컴퓨터가 잠자기 상태로 전환되면 연습이 중단될 수 있습니다."
+      ],
+      [
+        "사용자 지정 호흡에는 무엇이 포함되나요?",
+        "들숨, 숨 참기, 날숨, 휴식 단계를 0.5초 단위로 조절할 수 있습니다. 편집, 애니메이션 미리보기, 소리 미리듣기는 무료입니다. 비소모성 항목을 한 번 구매하면 사용자 지정 패턴을 무제한 저장할 수 있습니다. 구독이 아닙니다."
+      ],
+      [
+        "구입 항목을 어떻게 복원하나요?",
+        "설정 맨 아래 또는 구입 화면에서 ‘구매 복원’을 선택하세요. 처음 구입할 때 사용한 Apple 계정을 사용해야 합니다. 이미 잠금 해제된 경우 설정에 잠금 해제 상태가 표시됩니다."
+      ],
+      [
+        "3.0 이전에 패턴을 저장했는데 구입해야 하나요?",
+        "아니요. 해당 기기에 이전 버전의 사용자 지정 패턴이 저장되어 있으면 그 기기에서는 기능이 영구적으로 잠금 해제됩니다."
+      ],
+      [
+        "Apple 건강 접근 권한은 어디에 쓰이나요?",
+        "지원 기기에서 선택적으로 사용할 수 있으며 쓰기만 수행합니다. 허용하면 완료한 연습을 마음 챙기기 세션으로 저장합니다. 건강 데이터는 읽지 않습니다. Mac에서는 이 기능을 사용할 수 없습니다."
+      ]
+    ],
+    "requirements": "플랫폼 및 시스템 요구 사항",
+    "requirementsText": "iPhone, iPad, Mac을 지원합니다. iPhone과 iPad에는 iOS 또는 iPadOS 16.6 이상이 필요합니다. Mac 호환성은 Mac App Store의 앱 페이지에서 확인하세요. 백그라운드 오디오와 미디어 제어는 시스템에 따라 달라지며 햅틱은 기기에 따라 다릅니다.",
+    "safety": "안전하게 연습하기",
+    "safetyText": "편안한 범위에서 연습하세요. 어지러움, 호흡에 무리가 가는 느낌, 숨참 또는 기타 불편함이 있으면 중단하고 자연스러운 호흡으로 돌아오세요. BreathZen은 일반적인 건강 관리와 마음 챙기기를 위한 앱이며 의료 진단이나 치료를 제공하지 않습니다.",
+    "privacyBrief": "계정, 광고, 분석, 추적이 없습니다. 일상적인 연습은 오프라인으로 가능합니다.",
+    "readPolicy": "개인정보 처리방침 전체 보기",
+    "back": "BreathZen 지원 페이지로 돌아가기",
+    "effective": "시행일: 2026년 8월 10일",
+    "updated": "번역 및 플랫폼 설명 업데이트: 2026년 10월 5일",
+    "facts": [
+      [
+        "계정",
+        "로그인이나 개발자 계정이 필요하지 않습니다."
+      ],
+      [
+        "추적",
+        "광고, 분석 SDK, 앱 간 추적이 없습니다."
+      ],
+      [
+        "마이크",
+        "권한을 요청하거나 접근하지 않습니다."
+      ],
+      [
+        "연습",
+        "일상적인 사용은 오프라인으로 가능합니다."
+      ]
+    ],
+    "policy": [
+      [
+        "개발자가 수집하는 정보",
+        "개발자는 BreathZen을 통해 개인 데이터를 수집, 전송, 판매, 대여하거나 공유하지 않습니다. 광고 SDK, 분석 SDK, 앱 간 추적, 제3자 계정 시스템이 포함되어 있지 않습니다."
+      ],
+      [
+        "기기에 저장되는 데이터",
+        "호흡 패턴, 설정, 구입 권한 캐시, 연습 기록은 기기에 저장되며 개발자가 운영하는 서버로 업로드되지 않습니다. 로컬 데이터 삭제 방법은 운영 체제에 따라 다릅니다. Mac에서는 앱을 제거해도 로컬 데이터가 남을 수 있습니다. Apple 건강 기록은 건강 앱에서 별도로 관리합니다."
+      ],
+      [
+        "Apple 건강",
+        "지원 기기에서 선택적으로 사용할 수 있습니다. 허용하면 완료한 연습을 마음 챙기기 세션으로 기록합니다. 건강 데이터는 읽지 않으며 개발자에게 전달되지도 않습니다. Mac에서는 사용할 수 없습니다."
+      ],
+      [
+        "구입",
+        "Apple이 StoreKit을 통해 구입과 복원을 처리하며 Apple의 개인정보 처리방침이 적용됩니다. BreathZen은 비소모성 기능의 잠금 해제 여부를 확인하는 데 필요한 거래 정보만 받습니다. 구입 기능을 열거나 구입 또는 복원할 때 App Store 서비스에 연결될 수 있습니다. 일상적인 호흡 연습에는 네트워크 연결이 필요하지 않습니다."
+      ],
+      [
+        "오디오와 마이크",
+        "호흡 안내는 앱에 포함된 오디오 자료로 기기에서 생성됩니다. 마이크 권한을 요청하거나 목소리를 녹음하거나 호흡 소리를 듣지 않습니다."
+      ],
+      [
+        "시스템 서비스 및 아동 개인정보",
+        "StoreKit, 지원 기기의 Apple 건강, 오디오 재생, 햅틱, 로컬 저장소 같은 Apple 표준 서비스를 사용할 수 있습니다. 이러한 서비스는 기기 설정과 Apple 약관에 따라 작동합니다. BreathZen은 개인정보 수집을 목적으로 아동을 대상으로 하지 않으며 개발자는 아동의 개인정보를 고의로 수집하지 않습니다."
+      ],
+      [
+        "방침 변경",
+        "이 방침이 바뀌면 변경 내용과 시행일을 이 페이지에 게시합니다. 중요한 변경 사항은 앱의 실제 동작 변경을 반영합니다."
+      ]
+    ],
+    "applePolicy": "Apple 개인정보 처리방침",
+    "privacyContact": "지원 또는 개인정보 관련 문의:",
+    "privacyHeading": "개인정보"
+  },
+  "de": {
+    "name": "Deutsch",
+    "support": "Support",
+    "privacy": "Datenschutzerklärung",
+    "language": "Sprache",
+    "tagline": "In Ruhe zurück zu deinem Atem",
+    "privacyTagline": "Klare Grenzen für deine Daten",
+    "lead": "BreathZen begleitet Atemübungen auf iPhone, iPad und Mac ohne gesprochene Anweisungen. Bei Fragen oder Problemen schreib uns — wir lesen jede Nachricht.",
+    "contact": "Kontakt",
+    "primary": "Hauptkontakt",
+    "backup": "Internationaler / alternativer Kontakt",
+    "technical": "Bitte nenne bei technischen Problemen dein Gerätemodell, die iOS-, iPadOS- oder macOS-Version, die App-Version und die Schritte zum Nachstellen. Ein Screenshot oder eine Bildschirmaufnahme kann helfen.",
+    "faq": "Häufige Fragen",
+    "questions": [
+      [
+        "Wie funktioniert die Atembegleitung?",
+        "Unterscheidbare, nichtsprachliche Geräusche für Ein- und Ausatmen passen sich der Dauer jeder Phase an. Atemhaltephasen und Pausen bleiben still. Der Klang folgt vorgegebenen und eigenen Mustern, statt eine kurze Aufnahme zu wiederholen."
+      ],
+      [
+        "Geht die Übung bei gesperrtem Bildschirm weiter?",
+        "Aktiviere auf iPhone und iPad vor dem Start den Atemklang. Über den Sperrbildschirm kannst du pausieren und fortsetzen. Ohne Ton kann das System die App anhalten. Lass die App auf dem Mac geöffnet; im Ruhezustand des Computers kann die Übung unterbrochen werden."
+      ],
+      [
+        "Was bietet die eigene Atemübung?",
+        "Einatmen, Atemhalten, Ausatmen und Pause lassen sich in Schritten von 0,5 Sekunden einstellen. Bearbeiten, Animationsvorschau und Probehören sind kostenlos. Ein einmaliger, nicht verbrauchbarer Kauf schaltet das unbegrenzte Speichern eigener Muster frei. Es ist kein Abonnement."
+      ],
+      [
+        "Wie stelle ich meinen Kauf wieder her?",
+        "Wähle unten in den Einstellungen oder auf der Kaufseite „Kauf wiederherstellen“. Verwende denselben Apple Account wie beim ursprünglichen Kauf. Ist die Funktion bereits freigeschaltet, zeigen die Einstellungen diesen Status an."
+      ],
+      [
+        "Ich habe vor Version 3.0 eigene Muster gespeichert. Muss ich bezahlen?",
+        "Nein. Ist auf diesem Gerät bereits ein eigenes Muster aus einer früheren Version gespeichert, bleibt die Funktion dort dauerhaft freigeschaltet."
+      ],
+      [
+        "Wozu dient der Zugriff auf Apple Health?",
+        "Auf unterstützten Geräten ist er optional und erlaubt nur das Schreiben. Mit deiner Erlaubnis werden abgeschlossene Übungen als Achtsamkeitssitzungen gespeichert. BreathZen liest keine Gesundheitsdaten. Auf dem Mac ist diese Funktion nicht verfügbar."
+      ]
+    ],
+    "requirements": "Plattformen und Systemanforderungen",
+    "requirementsText": "BreathZen unterstützt iPhone, iPad und Mac. iPhone und iPad benötigen iOS bzw. iPadOS 16.6 oder neuer. Die Mac-Kompatibilität findest du im Mac App Store. Hintergrundton und Mediensteuerung hängen vom System ab. Haptisches Feedback variiert je nach Gerät.",
+    "safety": "Sicher üben",
+    "safetyText": "Übe nur in einem angenehmen Bereich. Wenn dir schwindlig wird, das Atmen anstrengend wird, du kurzatmig bist oder dich unwohl fühlst, höre auf und atme wieder natürlich. BreathZen dient dem allgemeinen Wohlbefinden und der Achtsamkeit, nicht der medizinischen Diagnose oder Behandlung.",
+    "privacyBrief": "Kein Konto, keine Werbung, keine Analyse und kein Tracking. Alltägliche Übungen funktionieren offline.",
+    "readPolicy": "Vollständige Datenschutzerklärung lesen",
+    "back": "Zurück zum BreathZen-Support",
+    "effective": "Gültig ab 10. August 2026",
+    "updated": "Übersetzungen und Plattformhinweise aktualisiert am 5. Oktober 2026",
+    "facts": [
+      [
+        "Konto",
+        "Keine Anmeldung oder Konto beim Entwickler."
+      ],
+      [
+        "Tracking",
+        "Keine Werbung, Analyse-SDKs oder appübergreifende Verfolgung."
+      ],
+      [
+        "Mikrofon",
+        "Weder Berechtigung angefordert noch Zugriff."
+      ],
+      [
+        "Übungen",
+        "Alltägliche Nutzung funktioniert offline."
+      ]
+    ],
+    "policy": [
+      [
+        "Was der Entwickler erhebt",
+        "Der Entwickler erhebt, überträgt, verkauft, vermietet oder teilt über BreathZen keine personenbezogenen Daten. Die App enthält keine Werbe-SDKs, Analyse-SDKs, appübergreifendes Tracking oder Kontosysteme von Drittanbietern."
+      ],
+      [
+        "Daten auf deinem Gerät",
+        "Atemmuster, Einstellungen, zwischengespeicherte Kaufberechtigungen und Übungsverlauf werden lokal gespeichert und nicht auf einen vom Entwickler betriebenen Server hochgeladen. Das Entfernen lokaler Daten hängt vom Betriebssystem ab. Auf dem Mac können nach der Deinstallation Daten zurückbleiben. Einträge in Apple Health werden separat in der Health-App verwaltet."
+      ],
+      [
+        "Apple Health",
+        "Die Einbindung ist auf unterstützten Geräten optional. Mit deiner Erlaubnis schreibt BreathZen abgeschlossene Übungen als Achtsamkeitssitzungen. Die App liest keine Gesundheitsdaten, und der Entwickler erhält keine. Auf dem Mac ist diese Funktion nicht verfügbar."
+      ],
+      [
+        "Käufe",
+        "Apple verarbeitet Käufe und deren Wiederherstellung über StoreKit gemäß Apples Datenschutzrichtlinie. BreathZen erhält nur die Transaktionsinformationen, die zur Prüfung der Freischaltung der nicht verbrauchbaren Funktion nötig sind. Beim Öffnen von Kauffunktionen, Kaufen oder Wiederherstellen kann eine Verbindung zu Apples App-Store-Diensten entstehen. Alltägliche Atemübungen benötigen keine Netzwerkverbindung."
+      ],
+      [
+        "Audio und Mikrofon",
+        "Die Atembegleitung wird auf deinem Gerät aus mitgeliefertem Audiomaterial erzeugt. BreathZen fordert keine Mikrofonberechtigung an, nimmt deine Stimme nicht auf und hört deiner Atmung nicht zu."
+      ],
+      [
+        "Systemdienste und Kinder",
+        "BreathZen kann Apple-Standarddienste wie StoreKit, Apple Health auf unterstützten Geräten, Audiowiedergabe, Haptik und lokalen Speicher nutzen. Sie unterliegen den Geräteeinstellungen und Apples Bedingungen. Die App richtet sich nicht an Kinder, um personenbezogene Daten zu sammeln, und der Entwickler erhebt wissentlich keine personenbezogenen Daten von Kindern."
+      ],
+      [
+        "Änderungen",
+        "Bei Änderungen werden der aktualisierte Text und das Gültigkeitsdatum hier veröffentlicht. Wesentliche Änderungen spiegeln das tatsächliche Verhalten der App wider."
+      ]
+    ],
+    "applePolicy": "Apples Datenschutzrichtlinie",
+    "privacyContact": "Bei Support- oder Datenschutzfragen:",
+    "privacyHeading": "Datenschutz"
+  },
+  "fr": {
+    "name": "Français",
+    "support": "Assistance",
+    "privacy": "Politique de confidentialité",
+    "language": "Langue",
+    "tagline": "Revenez à votre souffle, en douceur",
+    "privacyTagline": "Des règles claires pour vos données",
+    "lead": "BreathZen accompagne vos exercices de respiration sur iPhone, iPad et Mac sans consignes parlées. Pour toute question ou tout problème, écrivez-nous : nous lisons chaque message.",
+    "contact": "Contact",
+    "primary": "Assistance principale",
+    "backup": "Contact international / de secours",
+    "technical": "Pour un problème technique, indiquez le modèle de votre appareil, la version d’iOS, d’iPadOS ou de macOS, la version de l’app et les étapes pour reproduire le problème. Une capture ou un enregistrement d’écran peut aider.",
+    "faq": "Questions fréquentes",
+    "questions": [
+      [
+        "Comment fonctionne le guide respiratoire ?",
+        "Des sons non verbaux distincts pour l’inspiration et l’expiration s’adaptent à la durée de chaque phase. Les rétentions et les pauses restent silencieuses. Le son suit les rythmes intégrés et personnalisés au lieu de répéter un court enregistrement."
+      ],
+      [
+        "L’exercice continue-t-il lorsque l’écran est verrouillé ?",
+        "Sur iPhone et iPad, activez le son respiratoire avant de commencer. Les commandes de l’écran verrouillé permettent de mettre en pause ou de reprendre. Sans son, le système peut suspendre l’app. Sur Mac, laissez l’app ouverte ; la mise en veille de l’ordinateur peut interrompre l’exercice."
+      ],
+      [
+        "Que comprend la respiration personnalisée ?",
+        "Réglez l’inspiration, la rétention, l’expiration et la pause par pas de 0,5 seconde. La modification, l’aperçu animé et l’écoute sont gratuits. Un achat unique non consommable permet d’enregistrer un nombre illimité de rythmes personnalisés. Ce n’est pas un abonnement."
+      ],
+      [
+        "Comment restaurer mon achat ?",
+        "Choisissez « Restaurer l’achat » en bas des réglages ou sur l’écran d’achat. Utilisez le même compte Apple que lors de l’achat initial. Si la fonction est déjà déverrouillée, les réglages affichent cet état."
+      ],
+      [
+        "J’ai enregistré des rythmes avant la version 3.0. Dois-je payer ?",
+        "Non. Si un rythme personnalisé d’une ancienne version est déjà enregistré sur cet appareil, la fonction y reste déverrouillée définitivement."
+      ],
+      [
+        "À quoi sert l’accès à Apple Santé ?",
+        "Sur les appareils compatibles, il est facultatif et limité à l’écriture. Avec votre autorisation, les exercices terminés sont enregistrés comme séances de pleine conscience. BreathZen ne lit pas les données de santé. Cette fonction n’est pas disponible sur Mac."
+      ]
+    ],
+    "requirements": "Plateformes et configuration requise",
+    "requirementsText": "BreathZen prend en charge iPhone, iPad et Mac. iPhone et iPad nécessitent iOS ou iPadOS 16.6 ou ultérieur. Consultez la fiche du Mac App Store pour la compatibilité Mac. L’audio en arrière-plan et les commandes multimédias dépendent du système. Le retour haptique varie selon l’appareil.",
+    "safety": "Pratiquer en toute sécurité",
+    "safetyText": "Restez dans une zone de confort. En cas de vertige, d’effort respiratoire, d’essoufflement ou de malaise, arrêtez et reprenez une respiration naturelle. BreathZen accompagne le bien-être général et la pleine conscience ; il ne fournit ni diagnostic ni traitement médical.",
+    "privacyBrief": "Pas de compte, de publicité, d’analyse ni de suivi. Les exercices quotidiens fonctionnent hors ligne.",
+    "readPolicy": "Lire la politique de confidentialité complète",
+    "back": "Retour à l’assistance BreathZen",
+    "effective": "En vigueur depuis le 10 août 2026",
+    "updated": "Traductions et précisions sur les plateformes mises à jour le 5 octobre 2026",
+    "facts": [
+      [
+        "Compte",
+        "Aucune connexion ni compte auprès du développeur."
+      ],
+      [
+        "Suivi",
+        "Aucune publicité, aucun SDK d’analyse ni suivi entre apps."
+      ],
+      [
+        "Microphone",
+        "Aucune demande d’autorisation ni aucun accès."
+      ],
+      [
+        "Exercices",
+        "L’utilisation quotidienne fonctionne hors ligne."
+      ]
+    ],
+    "policy": [
+      [
+        "Données recueillies par le développeur",
+        "Le développeur ne collecte, transmet, vend, loue ni partage de données personnelles par l’intermédiaire de BreathZen. L’app ne contient aucun SDK publicitaire ou d’analyse, aucun suivi entre apps ni système de compte tiers."
+      ],
+      [
+        "Données sur votre appareil",
+        "Les rythmes respiratoires, réglages, droits d’achat mis en cache et historique des exercices sont stockés localement, sans envoi à un serveur exploité par le développeur. Leur suppression dépend du système d’exploitation. Sur Mac, la désinstallation peut laisser des données locales. Les entrées Apple Santé sont gérées séparément dans l’app Santé."
+      ],
+      [
+        "Apple Santé",
+        "L’intégration est facultative sur les appareils compatibles. Avec votre autorisation, BreathZen enregistre les exercices terminés comme séances de pleine conscience. L’app ne lit pas les données de santé et le développeur n’en reçoit aucune. Cette fonction n’est pas disponible sur Mac."
+      ],
+      [
+        "Achats",
+        "Apple traite les achats et leur restauration via StoreKit, conformément à sa politique de confidentialité. BreathZen reçoit uniquement les informations de transaction nécessaires pour vérifier le déverrouillage de la fonction non consommable. L’ouverture des fonctions d’achat, l’achat ou la restauration peuvent contacter les services App Store d’Apple. Les exercices quotidiens ne nécessitent pas de connexion réseau."
+      ],
+      [
+        "Audio et microphone",
+        "Le guide respiratoire est généré sur votre appareil à partir des fichiers audio fournis avec l’app. BreathZen ne demande pas l’accès au microphone, n’enregistre pas votre voix et n’écoute pas votre respiration."
+      ],
+      [
+        "Services système et enfants",
+        "BreathZen peut utiliser les services standard d’Apple : StoreKit, Apple Santé lorsqu’il est disponible, lecture audio, retour haptique et stockage local. Ils sont régis par les réglages de l’appareil et les conditions d’Apple. L’app ne cible pas les enfants à des fins de collecte de données personnelles, et le développeur ne collecte pas sciemment de données personnelles auprès d’enfants."
+      ],
+      [
+        "Modifications",
+        "Toute modification sera publiée ici avec le texte actualisé et sa date d’entrée en vigueur. Les changements importants refléteront le fonctionnement réel de l’app."
+      ]
+    ],
+    "applePolicy": "Politique de confidentialité d’Apple",
+    "privacyContact": "Pour toute question d’assistance ou de confidentialité :",
+    "privacyHeading": "Confidentialité"
+  },
+  "es": {
+    "name": "Español",
+    "support": "Soporte",
+    "privacy": "Política de privacidad",
+    "language": "Idioma",
+    "tagline": "Vuelve a tu respiración con calma",
+    "privacyTagline": "Límites claros para tus datos",
+    "lead": "BreathZen guía ejercicios de respiración sin instrucciones habladas en iPhone, iPad y Mac. Si tienes dudas o algo no funciona como esperabas, escríbenos: leemos todos los mensajes.",
+    "contact": "Contacto",
+    "primary": "Soporte principal",
+    "backup": "Contacto internacional / alternativo",
+    "technical": "Para problemas técnicos, indica el modelo del dispositivo, la versión de iOS, iPadOS o macOS, la versión de la app y los pasos para reproducir el problema. Una captura o grabación de pantalla puede ayudar.",
+    "faq": "Preguntas frecuentes",
+    "questions": [
+      [
+        "¿Cómo funciona la guía de respiración?",
+        "Sonidos no verbales distintos para inhalar y exhalar se ajustan a la duración de cada fase. Las retenciones y las pausas son silenciosas. El sonido se adapta a los patrones integrados y personalizados en lugar de repetir una grabación corta."
+      ],
+      [
+        "¿Continúa el ejercicio con la pantalla bloqueada?",
+        "En iPhone y iPad, activa el sonido de respiración antes de empezar. Los controles de la pantalla bloqueada permiten pausar o reanudar. Sin sonido, el sistema puede suspender la app. En Mac, mantén la app abierta; el reposo del ordenador puede interrumpir el ejercicio."
+      ],
+      [
+        "¿Qué incluye la respiración personalizada?",
+        "Ajusta inhalación, retención, exhalación y pausa en incrementos de 0,5 segundos. La edición, la vista previa animada y la prueba del sonido son gratuitas. Una compra única no consumible permite guardar patrones personalizados sin límite. No es una suscripción."
+      ],
+      [
+        "¿Cómo restauro mi compra?",
+        "Elige «Restaurar compra» al final de Ajustes o en la pantalla de compra. Usa la misma cuenta de Apple de la compra original. Si la función ya está desbloqueada, Ajustes mostrará ese estado."
+      ],
+      [
+        "Guardé patrones antes de la versión 3.0. ¿Debo pagar?",
+        "No. Si el dispositivo ya contiene un patrón personalizado guardado con una versión anterior, la función se desbloquea permanentemente en ese dispositivo."
+      ],
+      [
+        "¿Para qué sirve el acceso a Apple Salud?",
+        "En dispositivos compatibles, es opcional y solo permite escribir datos. Con tu permiso, los ejercicios completados se guardan como sesiones de atención plena. BreathZen no lee datos de Salud. Esta función no está disponible en Mac."
+      ]
+    ],
+    "requirements": "Plataformas y requisitos del sistema",
+    "requirementsText": "BreathZen admite iPhone, iPad y Mac. iPhone y iPad requieren iOS o iPadOS 16.6 o posterior. Consulta la ficha de Mac App Store para la compatibilidad con Mac. El audio en segundo plano y los controles multimedia dependen del sistema. La respuesta háptica varía según el dispositivo.",
+    "safety": "Practica con seguridad",
+    "safetyText": "Practica dentro de un rango cómodo. Si sientes mareo, esfuerzo al respirar, falta de aire o malestar, detente y vuelve a respirar de forma natural. BreathZen se orienta al bienestar general y la atención plena; no ofrece diagnóstico ni tratamiento médico.",
+    "privacyBrief": "Sin cuenta, anuncios, análisis ni seguimiento. Los ejercicios cotidianos funcionan sin conexión.",
+    "readPolicy": "Leer la política de privacidad completa",
+    "back": "Volver al soporte de BreathZen",
+    "effective": "En vigor desde el 10 de agosto de 2026",
+    "updated": "Traducciones y aclaraciones sobre plataformas actualizadas el 5 de octubre de 2026",
+    "facts": [
+      [
+        "Cuenta",
+        "Sin inicio de sesión ni cuenta del desarrollador."
+      ],
+      [
+        "Seguimiento",
+        "Sin anuncios, SDK de análisis ni seguimiento entre apps."
+      ],
+      [
+        "Micrófono",
+        "No se solicita permiso ni se accede a él."
+      ],
+      [
+        "Práctica",
+        "El uso cotidiano funciona sin conexión."
+      ]
+    ],
+    "policy": [
+      [
+        "Qué recopila el desarrollador",
+        "El desarrollador no recopila, transmite, vende, alquila ni comparte datos personales a través de BreathZen. La app no contiene SDK publicitarios ni de análisis, seguimiento entre apps ni sistemas de cuentas de terceros."
+      ],
+      [
+        "Datos en tu dispositivo",
+        "Los patrones, ajustes, caché de derechos de compra e historial de ejercicios se guardan localmente, sin enviarse a servidores del desarrollador. La eliminación de los datos locales depende del sistema operativo. En Mac, desinstalar la app puede dejar datos locales. Las entradas de Apple Salud se gestionan por separado en la app Salud."
+      ],
+      [
+        "Apple Salud",
+        "La integración es opcional en dispositivos compatibles. Con tu permiso, BreathZen escribe los ejercicios completados como sesiones de atención plena. No lee datos de Salud y el desarrollador no los recibe. Esta función no está disponible en Mac."
+      ],
+      [
+        "Compras",
+        "Apple procesa las compras y su restauración mediante StoreKit según su política de privacidad. BreathZen solo recibe la información de transacción necesaria para determinar si la función no consumible está desbloqueada. Abrir funciones de compra, comprar o restaurar puede contactar con los servicios de App Store de Apple. Los ejercicios cotidianos no requieren conexión de red."
+      ],
+      [
+        "Audio y micrófono",
+        "La guía se genera en el dispositivo a partir del material de audio incluido en la app. BreathZen no solicita permiso para el micrófono, no graba tu voz ni escucha tu respiración."
+      ],
+      [
+        "Servicios del sistema y menores",
+        "BreathZen puede utilizar servicios estándar de Apple como StoreKit, Apple Salud donde esté disponible, reproducción de audio, respuesta háptica y almacenamiento local. Su funcionamiento se rige por los ajustes del dispositivo y las condiciones de Apple. La app no se dirige a menores para recopilar información personal y el desarrollador no recopila deliberadamente información personal de menores."
+      ],
+      [
+        "Cambios",
+        "Si cambia esta política, se publicarán aquí el texto actualizado y la fecha de entrada en vigor. Los cambios importantes reflejarán el comportamiento real de la app."
+      ]
+    ],
+    "applePolicy": "Política de privacidad de Apple",
+    "privacyContact": "Para consultas sobre soporte o privacidad:",
+    "privacyHeading": "Privacidad"
+  },
+  "pt-BR": {
+    "name": "Português (Brasil)",
+    "support": "Suporte",
+    "privacy": "Política de privacidade",
+    "language": "Idioma",
+    "tagline": "Volte à sua respiração com calma",
+    "privacyTagline": "Limites claros para seus dados",
+    "lead": "O BreathZen orienta exercícios de respiração sem instruções faladas no iPhone, iPad e Mac. Se tiver dúvidas ou algo não funcionar como esperado, escreva para nós. Lemos todas as mensagens.",
+    "contact": "Contato",
+    "primary": "Suporte principal",
+    "backup": "Contato internacional / alternativo",
+    "technical": "Para problemas técnicos, informe o modelo do dispositivo, a versão do iOS, iPadOS ou macOS, a versão do app e os passos para reproduzir o problema. Uma captura ou gravação de tela pode ajudar.",
+    "faq": "Perguntas frequentes",
+    "questions": [
+      [
+        "Como funciona a orientação respiratória?",
+        "Sons não verbais distintos de inspiração e expiração se ajustam à duração de cada fase. As retenções e pausas ficam em silêncio. O som acompanha os padrões integrados e personalizados, em vez de repetir uma gravação curta."
+      ],
+      [
+        "O exercício continua com a tela bloqueada?",
+        "No iPhone e iPad, ative o som de respiração antes de começar. Os controles da tela bloqueada permitem pausar ou retomar. Sem som, o sistema pode suspender o app. No Mac, mantenha o app aberto; o repouso do computador pode interromper o exercício."
+      ],
+      [
+        "O que está incluído na respiração personalizada?",
+        "Ajuste inspiração, retenção, expiração e pausa em incrementos de 0,5 segundo. A edição, a prévia animada e a prévia do áudio são gratuitas. Uma compra única não consumível libera o salvamento de padrões personalizados sem limite. Não é uma assinatura."
+      ],
+      [
+        "Como restauro minha compra?",
+        "Escolha “Restaurar compra” no final dos Ajustes ou na tela de compra. Use a mesma Conta Apple da compra original. Se o recurso já estiver liberado, os Ajustes mostrarão esse status."
+      ],
+      [
+        "Salvei padrões antes da versão 3.0. Preciso pagar?",
+        "Não. Se o dispositivo já tiver um padrão personalizado salvo em uma versão anterior, o recurso fica liberado permanentemente nesse dispositivo."
+      ],
+      [
+        "Para que serve o acesso ao Apple Saúde?",
+        "Nos dispositivos compatíveis, é opcional e permite apenas gravar dados. Com sua autorização, os exercícios concluídos são salvos como sessões de atenção plena. O BreathZen não lê dados de Saúde. Esse recurso não está disponível no Mac."
+      ]
+    ],
+    "requirements": "Plataformas e requisitos do sistema",
+    "requirementsText": "O BreathZen é compatível com iPhone, iPad e Mac. iPhone e iPad exigem iOS ou iPadOS 16.6 ou posterior. Confira a página do Mac App Store para a compatibilidade com Mac. Áudio em segundo plano e controles de mídia dependem do sistema. A resposta tátil varia conforme o dispositivo.",
+    "safety": "Pratique com segurança",
+    "safetyText": "Pratique dentro de uma faixa confortável. Se sentir tontura, esforço para respirar, falta de ar ou mal-estar, pare e volte a respirar naturalmente. O BreathZen se destina ao bem-estar geral e à atenção plena; não oferece diagnóstico nem tratamento médico.",
+    "privacyBrief": "Sem conta, anúncios, análise ou rastreamento. Os exercícios do dia a dia funcionam offline.",
+    "readPolicy": "Ler a política de privacidade completa",
+    "back": "Voltar ao suporte do BreathZen",
+    "effective": "Em vigor desde 10 de agosto de 2026",
+    "updated": "Traduções e esclarecimentos sobre plataformas atualizados em 5 de outubro de 2026",
+    "facts": [
+      [
+        "Conta",
+        "Sem login ou conta do desenvolvedor."
+      ],
+      [
+        "Rastreamento",
+        "Sem anúncios, SDK de análise ou rastreamento entre apps."
+      ],
+      [
+        "Microfone",
+        "Não solicita permissão nem acessa o microfone."
+      ],
+      [
+        "Prática",
+        "O uso diário funciona offline."
+      ]
+    ],
+    "policy": [
+      [
+        "O que o desenvolvedor coleta",
+        "O desenvolvedor não coleta, transmite, vende, aluga nem compartilha dados pessoais por meio do BreathZen. O app não contém SDK de publicidade ou análise, rastreamento entre apps nem sistemas de contas de terceiros."
+      ],
+      [
+        "Dados no seu dispositivo",
+        "Padrões respiratórios, ajustes, cache de direitos de compra e histórico de exercícios ficam armazenados localmente, sem envio a servidores do desenvolvedor. A remoção dos dados locais depende do sistema operacional. No Mac, desinstalar o app pode deixar dados locais. Os registros do Apple Saúde são gerenciados separadamente no app Saúde."
+      ],
+      [
+        "Apple Saúde",
+        "A integração é opcional nos dispositivos compatíveis. Com sua autorização, o BreathZen grava os exercícios concluídos como sessões de atenção plena. Não lê dados de Saúde, e o desenvolvedor não os recebe. Esse recurso não está disponível no Mac."
+      ],
+      [
+        "Compras",
+        "A Apple processa compras e restaurações pelo StoreKit de acordo com sua política de privacidade. O BreathZen recebe apenas as informações de transação necessárias para verificar se o recurso não consumível está liberado. Abrir recursos de compra, comprar ou restaurar pode conectar aos serviços do App Store da Apple. Os exercícios cotidianos não exigem conexão de rede."
+      ],
+      [
+        "Áudio e microfone",
+        "A orientação respiratória é gerada no dispositivo a partir do material de áudio incluído no app. O BreathZen não solicita permissão para o microfone, não grava sua voz nem escuta sua respiração."
+      ],
+      [
+        "Serviços do sistema e crianças",
+        "O BreathZen pode usar serviços padrão da Apple, como StoreKit, Apple Saúde quando disponível, reprodução de áudio, resposta tátil e armazenamento local. Seu funcionamento segue os ajustes do dispositivo e os termos da Apple. O app não é direcionado a crianças para coletar informações pessoais, e o desenvolvedor não coleta intencionalmente informações pessoais de crianças."
+      ],
+      [
+        "Alterações",
+        "Se esta política mudar, o texto atualizado e a data de entrada em vigor serão publicados aqui. Alterações importantes refletirão o comportamento real do app."
+      ]
+    ],
+    "applePolicy": "Política de privacidade da Apple",
+    "privacyContact": "Para dúvidas de suporte ou privacidade:",
+    "privacyHeading": "Privacidade"
+  }
+}

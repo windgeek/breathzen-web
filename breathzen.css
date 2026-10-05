@@ -49,6 +49,7 @@ header { text-align: center; }
 }
 
 h1 {
+  overflow-wrap: anywhere;
   margin: 0;
   font-size: clamp(2.25rem, 8vw, 3.4rem);
   line-height: 1.05;
@@ -72,11 +73,12 @@ h1 {
 .languages {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
   gap: 8px;
   margin: 0 0 36px;
 }
 
-.languages button {
+.languages a {
   appearance: none;
   border: 1px solid rgba(255,255,255,0.12);
   border-radius: 999px;
@@ -86,17 +88,24 @@ h1 {
   font: inherit;
   font-size: 0.86rem;
   cursor: pointer;
+  text-decoration: none;
 }
 
-.languages button[aria-pressed="true"] {
+.languages a[aria-current="true"] {
   color: var(--text);
   border-color: rgba(101, 230, 224, 0.42);
   background: rgba(101, 230, 224, 0.10);
   box-shadow: 0 0 20px rgba(101, 230, 224, 0.08);
 }
 
-article { display: none; }
-article.active { display: block; }
+article { scroll-margin-top: 24px; }
+.localized article:not(.active) { display: none; }
+article + article { margin-top: 64px; }
+.localized article { margin-top: 0; }
+article, .card, .fact { overflow-wrap: anywhere; }
+.languages a:focus-visible, a:focus-visible { outline: 2px solid var(--cyan); outline-offset: 4px; }
+.policy-link { margin-top: 10px; }
+.lead small { color: var(--subtext); font-size: 0.8rem; }
 
 .lead {
   margin: 0 0 32px;

@@ -1,33 +1,62 @@
 # BreathZen — support and privacy pages
 
-Static, dependency-free pages prepared for GitHub Pages and App Store Connect.
+Static, dependency-free support and privacy pages for iPhone, iPad, and Mac.
 
-| Page | File | App Store Connect field |
-|---|---|---|
-| Support | `index.html` | Support URL |
-| Privacy Policy | `privacy.html` | Privacy Policy URL |
+## Live pages
 
-Both English and Simplified Chinese live in each HTML file. Language selection
-uses `?lang=` first, then the last selection, then the browser language, with
-English as the fallback.
+GitHub Pages publishes the root of `main` in `windgeek/breathzen-web`:
 
-## Publication
+- Support: https://windgeek.github.io/breathzen-web/
+- Privacy: https://windgeek.github.io/breathzen-web/privacy.html
 
-This folder is published from the public `windgeek/breathzen-web` repository,
-mirroring the existing `shotzen-web` setup. GitHub Pages deploys from the
-`main` branch and repository root:
+Existing App Store Connect URLs remain valid. No app build is needed to update
+these pages. The old Notion policy is not the canonical policy.
 
-- `https://windgeek.github.io/breathzen-web/`
-- `https://windgeek.github.io/breathzen-web/privacy.html`
+## Languages
 
-Both URLs were verified publicly on August 11, 2026. They are the preferred
-Support URL and Privacy Policy URL for App Store Connect. The old Notion page
-may remain online as a harmless legacy link, but is no longer the canonical
-policy.
+Both pages include the complete content in English (`en`), Simplified Chinese
+(`zh-Hans`), Traditional Chinese (`zh-Hant`), Japanese (`ja`), Korean (`ko`),
+German (`de`), French (`fr`), Spanish (`es`), and Brazilian Portuguese (`pt-BR`).
 
-## Accuracy notes
+Selection priority: supported `?lang=`, explicit language anchor, saved choice,
+first supported browser language, then English. For example:
 
-The policy intentionally says that everyday practice works offline, not that
-the app never connects to the network. StoreKit contacts Apple when the user
-opens purchase features, buys, or restores. Optional Apple Health integration
-is write-only. BreathZen does not request microphone access.
+- `/?lang=ja`
+- `/privacy.html?lang=zh-Hant`
+
+Chinese script and region variants are distinguished; `zh-TW`, `zh-HK`, and
+`zh-MO` select Traditional Chinese. Portuguese variants select the available
+Brazilian translation. Explicit script tags take priority over region tags.
+Switching languages updates the URL and remembers the selection when browser
+storage is available. Links between pages preserve the language even when
+storage is blocked. Without JavaScript, all translations remain readable and
+the language links jump to the selected article.
+
+## Editing and checking
+
+Edit the reviewed source in `content/locales.json`, then regenerate both HTML
+files. `content/mark.svg` retains the original site artwork. Commit generated
+HTML together with source; GitHub Pages does not need a build dependency.
+
+```sh
+python3 scripts/build.py
+node tests/i18n.test.js
+python3 -m http.server 8765
+```
+
+Verify both pages at desktop and phone widths, including German and French
+headings, Chinese script variants, page links, and unavailable browser storage.
+All content is bundled: there are no remote translation APIs, fonts, analytics,
+or tracking scripts.
+
+## Content accuracy
+
+Everyday practice works offline; purchase features and restoration may contact
+Apple via StoreKit. Apple Health is optional and write-only on supported
+devices and unavailable on Mac. Microphone access is never requested.
+
+The policy retains its August 10, 2026 effective date. The October 5, 2026 note
+identifies translation and platform clarifications, with no change to the
+app's data practices. Mac uninstallation is not presented as a guarantee that
+local data is deleted. Support instructions include the current Settings
+restore entry and distinguish mobile Lock Screen controls from Mac sleep.
